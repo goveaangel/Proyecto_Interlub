@@ -1,5 +1,5 @@
 ﻿nombre_producto,marca,tipo_grasa,grado_NLGI,tipo_aceite_base,temp_min_C,temp_max_C,temp_pico_C,punto_goteo_C,viscosidad_40C_mm2s,carga_4ball_N,lavado_agua_80C_%,vida_rodamientos_h,registro_H1,aplicaciones
-ANDEROL FGCS-2,ANDEROL,Calcio sulfonato complejo,2,White Oil,-20,160,200.0,318.0,95,4000,0.3,180.0,Sí,"Alimentaria, embotellado, farmacéutica"
+ANDEROL FGCS-2,ANDEROL,Calcio sulfonato complejo,2,White Oil,-20,160,200.0,318.0,95,4000,0.3,180.0,Sí,"Procesamiento de alimentos, embotellado, farmacéutica"
 ELKALUB GLS 163,ELKALUB,Tixotrópica sintética con PTFE,2,Aceite mineral parcialmente sintético,-20,180,,250.0,100,2000,1.0,,No,"Cojinetes lentos o rápidos con sellado insuficiente, husillos, asientos de pinzas"
 COGELSA ULTRAPLEX MCS 1,COGELSA,Sulfonato de calcio reforzada,1,Aceite base de alta viscosidad,-20,180,,300.0,460,620,18.0,,Opcional,"Engranajes abiertos, reductores, minería, siderurgia, alimentaria"
 COGELSA ULTRAPLEX MCS 2,COGELSA,Sulfonato de calcio reforzada,2,Aceite base de alta viscosidad,-20,180,,300.0,460,620,11.0,,Opcional,"Engranajes abiertos, reductores, minería, siderurgia, alimentaria"
@@ -7,7 +7,9 @@ CHEVRON Starplex EP 00,CHEVRON,Complejo de litio,0,Aceite mineral refinado,-40,1
 CHEVRON Starplex EP 0,CHEVRON,Complejo de litio,0,Aceite mineral refinado,-40,132,,235.0,220,315,,,No,Sistemas de engrase centralizado y rodamientos automotrices
 CHEVRON Starplex EP 1,CHEVRON,Complejo de litio,1,Aceite mineral refinado,-40,177,,245.0,220,315,30.0,,No,"Camiones, buses, maquinaria ligera, rodamientos de alta temperatura"
 CHEVRON Starplex EP 2,CHEVRON,Complejo de litio,2,Aceite mineral refinado,-40,177,,255.0,220,315,20.0,,No,"Vehículos pesados, construcción, rodamientos de rueda y chasis"
+CHEVRON Starplex EP 1 M3,CHEVRON,Complejo de litio con disulfuro de molibdeno (3%),1,Aceite mineral refinado,-40,177,,245.0,220,400,30.0,,No,"Vehículos todoterreno, maquinaria de construcción, rodamientos de carga pesada"
+CHEVRON Starplex EP 2 M3,CHEVRON,Complejo de litio con disulfuro de molibdeno (3%),2,Aceite mineral refinado,-40,177,,255.0,220,400,20.0,,No,"Vehículos de carretera, agricultura, minería ligera"
 CHEVRON Delo Grease EP 00,CHEVRON,Complejo de litio,0,Aceite mineral refinado,-40,132,,,226,315,,,No,Lubricación centralizada y cojinetes a baja temperatura
-CHEVRON Delo Grease EP 0,CHEVRON,Complejo de litio,0,Aceite mineral refinado,-40,132,,235.0,226,315,15.0,,No,"Tractores, buses, camiones, aplicaciones de engrase centralizado"
+CHEVRON Delo Grease EP 0,CHEVRON,Complejo de litio,0,Aceite mineral refinado,-40,132,,235.0,226,315,15.0,,No,"Tractores, buses, camiones, engrase centralizado"
 CHEVRON Delo Grease EP 1,CHEVRON,Complejo de litio,1,Aceite mineral refinado,-40,177,,245.0,226,315,10.0,,No,"Camiones pesados, buses, maquinaria de carretera y chasis automotriz"
 CHEVRON Delo Grease EP 2,CHEVRON,Complejo de litio,2,Aceite mineral refinado,-40,177,,255.0,226,315,5.0,,No,"Camiones, autos, maquinaria agrícola y de construcción"
