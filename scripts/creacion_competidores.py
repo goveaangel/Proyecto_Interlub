@@ -1,7 +1,8 @@
 import pandas as pd
 
-# === Datos técnicos resumidos de 5 fichas de producto ===
+# === 1. Datos técnicos consolidados de las 5 marcas ===
 productos = [
+    # ANDEROL FGCS-2 --------------------------------------------------------
     {
         "nombre_producto": "ANDEROL FGCS-2",
         "marca": "ANDEROL",
@@ -17,9 +18,9 @@ productos = [
         "lavado_agua_80C_%": 0.3,
         "vida_rodamientos_h": 180,
         "registro_H1": "Sí",
-        "aplicaciones": "Industria alimentaria, embotellado, farmacéutica",
-        "ventajas": "Alta estabilidad mecánica, resistencia al agua, larga vida útil"
+        "aplicaciones": "Alimentaria, embotellado, farmacéutica",
     },
+    # ELKALUB GLS 163 -------------------------------------------------------
     {
         "nombre_producto": "ELKALUB GLS 163",
         "marca": "ELKALUB",
@@ -34,8 +35,24 @@ productos = [
         "lavado_agua_80C_%": 1.0,
         "vida_rodamientos_h": None,
         "registro_H1": "No",
-        "aplicaciones": "Rodamientos lentos o rápidos con sellado insuficiente, asientos de pinzas, husillos",
-        "ventajas": "Grasa de alta pureza y comportamiento tixotrópico, estable a altas presiones"
+        "aplicaciones": "Cojinetes lentos o rápidos con sellado insuficiente, husillos, asientos de pinzas",
+    },
+    # COGELSA ULTRAPLEX MCS (1 y 2) ----------------------------------------
+    {
+        "nombre_producto": "COGELSA ULTRAPLEX MCS 1",
+        "marca": "COGELSA",
+        "tipo_grasa": "Sulfonato de calcio reforzada",
+        "grado_NLGI": 1,
+        "tipo_aceite_base": "Aceite base de alta viscosidad",
+        "temp_min_C": -20,
+        "temp_max_C": 180,
+        "punto_goteo_C": 300,
+        "viscosidad_40C_mm2s": 460,
+        "carga_4ball_N": 620,
+        "lavado_agua_80C_%": 18,
+        "vida_rodamientos_h": None,
+        "registro_H1": "Opcional",
+        "aplicaciones": "Engranajes abiertos, reductores, minería, siderurgia, alimentaria",
     },
     {
         "nombre_producto": "COGELSA ULTRAPLEX MCS 2",
@@ -51,25 +68,105 @@ productos = [
         "lavado_agua_80C_%": 11,
         "vida_rodamientos_h": None,
         "registro_H1": "Opcional",
-        "aplicaciones": "Engranajes abiertos, reductores, acoplamientos, minería, siderurgia, alimentaria",
-        "ventajas": "Excelente capacidad de carga, anticorrosiva y alta estabilidad bajo condiciones severas"
+        "aplicaciones": "Engranajes abiertos, reductores, minería, siderurgia, alimentaria",
+    },
+    # CHEVRON STARPLEX EP (00,0,1,2) ----------------------------------------
+    {
+        "nombre_producto": "CHEVRON Starplex EP 00",
+        "marca": "CHEVRON",
+        "tipo_grasa": "Complejo de litio",
+        "grado_NLGI": 00,
+        "tipo_aceite_base": "Aceite mineral refinado",
+        "temp_min_C": -40,
+        "temp_max_C": 132,
+        "punto_goteo_C": None,
+        "viscosidad_40C_mm2s": 220,
+        "carga_4ball_N": 315,
+        "lavado_agua_80C_%": None,
+        "vida_rodamientos_h": None,
+        "registro_H1": "No",
+        "aplicaciones": "Chasis y rodamientos de vehículos de carga y maquinaria ligera",
     },
     {
-        "nombre_producto": "CHEVRON Starplex EP2",
+        "nombre_producto": "CHEVRON Starplex EP 0",
         "marca": "CHEVRON",
-        "tipo_grasa": "Complejo de litio con disulfuro de molibdeno",
+        "tipo_grasa": "Complejo de litio",
+        "grado_NLGI": 0,
+        "tipo_aceite_base": "Aceite mineral refinado",
+        "temp_min_C": -40,
+        "temp_max_C": 132,
+        "punto_goteo_C": 235,
+        "viscosidad_40C_mm2s": 220,
+        "carga_4ball_N": 315,
+        "lavado_agua_80C_%": None,
+        "vida_rodamientos_h": None,
+        "registro_H1": "No",
+        "aplicaciones": "Sistemas de engrase centralizado y rodamientos automotrices",
+    },
+    {
+        "nombre_producto": "CHEVRON Starplex EP 1",
+        "marca": "CHEVRON",
+        "tipo_grasa": "Complejo de litio",
+        "grado_NLGI": 1,
+        "tipo_aceite_base": "Aceite mineral refinado",
+        "temp_min_C": -40,
+        "temp_max_C": 177,
+        "punto_goteo_C": 245,
+        "viscosidad_40C_mm2s": 220,
+        "carga_4ball_N": 315,
+        "lavado_agua_80C_%": 30,
+        "vida_rodamientos_h": None,
+        "registro_H1": "No",
+        "aplicaciones": "Camiones, buses, maquinaria ligera, rodamientos de alta temperatura",
+    },
+    {
+        "nombre_producto": "CHEVRON Starplex EP 2",
+        "marca": "CHEVRON",
+        "tipo_grasa": "Complejo de litio",
         "grado_NLGI": 2,
         "tipo_aceite_base": "Aceite mineral refinado",
         "temp_min_C": -40,
         "temp_max_C": 177,
         "punto_goteo_C": 255,
         "viscosidad_40C_mm2s": 220,
-        "carga_4ball_N": 400,
+        "carga_4ball_N": 315,
         "lavado_agua_80C_%": 20,
         "vida_rodamientos_h": None,
         "registro_H1": "No",
-        "aplicaciones": "Rodamientos automotrices, camiones pesados, maquinaria agrícola y de construcción",
-        "ventajas": "Alta estabilidad térmica, excelente protección contra corrosión y desgaste"
+        "aplicaciones": "Vehículos pesados, construcción, rodamientos de rueda y chasis",
+    },
+    # CHEVRON DELO GREASE EP (00,0,1,2) -------------------------------------
+    {
+        "nombre_producto": "CHEVRON Delo Grease EP 00",
+        "marca": "CHEVRON",
+        "tipo_grasa": "Complejo de litio",
+        "grado_NLGI": 00,
+        "tipo_aceite_base": "Aceite mineral refinado",
+        "temp_min_C": -40,
+        "temp_max_C": 132,
+        "punto_goteo_C": None,
+        "viscosidad_40C_mm2s": 226,
+        "carga_4ball_N": 315,
+        "lavado_agua_80C_%": None,
+        "vida_rodamientos_h": None,
+        "registro_H1": "No",
+        "aplicaciones": "Lubricación centralizada y cojinetes a baja temperatura",
+    },
+    {
+        "nombre_producto": "CHEVRON Delo Grease EP 0",
+        "marca": "CHEVRON",
+        "tipo_grasa": "Complejo de litio",
+        "grado_NLGI": 0,
+        "tipo_aceite_base": "Aceite mineral refinado",
+        "temp_min_C": -40,
+        "temp_max_C": 132,
+        "punto_goteo_C": 235,
+        "viscosidad_40C_mm2s": 226,
+        "carga_4ball_N": 315,
+        "lavado_agua_80C_%": 15,
+        "vida_rodamientos_h": None,
+        "registro_H1": "No",
+        "aplicaciones": "Tractores, buses, camiones, aplicaciones de engrase centralizado",
     },
     {
         "nombre_producto": "CHEVRON Delo Grease EP 1",
@@ -85,13 +182,28 @@ productos = [
         "lavado_agua_80C_%": 10,
         "vida_rodamientos_h": None,
         "registro_H1": "No",
-        "aplicaciones": "Vehículos de carretera, autobuses, maquinaria ligera, cojinetes de alta temperatura",
-        "ventajas": "Alta resistencia al lavado por agua, buena bombeabilidad a baja temperatura, textura pegajosa"
-    }
+        "aplicaciones": "Camiones pesados, buses, maquinaria de carretera y chasis automotriz",
+    },
+    {
+        "nombre_producto": "CHEVRON Delo Grease EP 2",
+        "marca": "CHEVRON",
+        "tipo_grasa": "Complejo de litio",
+        "grado_NLGI": 2,
+        "tipo_aceite_base": "Aceite mineral refinado",
+        "temp_min_C": -40,
+        "temp_max_C": 177,
+        "punto_goteo_C": 255,
+        "viscosidad_40C_mm2s": 226,
+        "carga_4ball_N": 315,
+        "lavado_agua_80C_%": 5,
+        "vida_rodamientos_h": None,
+        "registro_H1": "No",
+        "aplicaciones": "Camiones, autos, maquinaria agrícola y de construcción",
+    },
 ]
 
-# === Crear DataFrame y exportar ===
+# === 2. Crear y exportar ===
 df = pd.DataFrame(productos)
 df.to_csv("competidores.csv", index=False, encoding="utf-8-sig")
 
-print("Archivo 'competidores.csv' creado exitosamente con 5 productos.")
+print("Archivo 'competidores.csv' creado con 12 grasas técnicas de 5 competidores.")

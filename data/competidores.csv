@@ -1,6 +1,13 @@
-﻿nombre_producto,marca,tipo_grasa,grado_NLGI,tipo_aceite_base,temp_min_C,temp_max_C,temp_pico_C,punto_goteo_C,viscosidad_40C_mm2s,carga_4ball_N,lavado_agua_80C_%,vida_rodamientos_h,registro_H1,aplicaciones,ventajas
-ANDEROL FGCS-2,ANDEROL,Calcio sulfonato complejo,2,White Oil,-20,160,200.0,318,95,4000,0.3,180.0,Sí,"Industria alimentaria, embotellado, farmacéutica","Alta estabilidad mecánica, resistencia al agua, larga vida útil"
-ELKALUB GLS 163,ELKALUB,Tixotrópica sintética con PTFE,2,Aceite mineral parcialmente sintético,-20,180,,250,100,2000,1.0,,No,"Rodamientos lentos o rápidos con sellado insuficiente, asientos de pinzas, husillos","Grasa de alta pureza y comportamiento tixotrópico, estable a altas presiones"
-COGELSA ULTRAPLEX MCS 2,COGELSA,Sulfonato de calcio reforzada,2,Aceite base de alta viscosidad,-20,180,,300,460,620,11.0,,Opcional,"Engranajes abiertos, reductores, acoplamientos, minería, siderurgia, alimentaria","Excelente capacidad de carga, anticorrosiva y alta estabilidad bajo condiciones severas"
-CHEVRON Starplex EP2,CHEVRON,Complejo de litio con disulfuro de molibdeno,2,Aceite mineral refinado,-40,177,,255,220,400,20.0,,No,"Rodamientos automotrices, camiones pesados, maquinaria agrícola y de construcción","Alta estabilidad térmica, excelente protección contra corrosión y desgaste"
-CHEVRON Delo Grease EP 1,CHEVRON,Complejo de litio,1,Aceite mineral refinado,-40,177,,245,226,315,10.0,,No,"Vehículos de carretera, autobuses, maquinaria ligera, cojinetes de alta temperatura","Alta resistencia al lavado por agua, buena bombeabilidad a baja temperatura, textura pegajosa"
+﻿nombre_producto,marca,tipo_grasa,grado_NLGI,tipo_aceite_base,temp_min_C,temp_max_C,temp_pico_C,punto_goteo_C,viscosidad_40C_mm2s,carga_4ball_N,lavado_agua_80C_%,vida_rodamientos_h,registro_H1,aplicaciones
+ANDEROL FGCS-2,ANDEROL,Calcio sulfonato complejo,2,White Oil,-20,160,200.0,318.0,95,4000,0.3,180.0,Sí,"Alimentaria, embotellado, farmacéutica"
+ELKALUB GLS 163,ELKALUB,Tixotrópica sintética con PTFE,2,Aceite mineral parcialmente sintético,-20,180,,250.0,100,2000,1.0,,No,"Cojinetes lentos o rápidos con sellado insuficiente, husillos, asientos de pinzas"
+COGELSA ULTRAPLEX MCS 1,COGELSA,Sulfonato de calcio reforzada,1,Aceite base de alta viscosidad,-20,180,,300.0,460,620,18.0,,Opcional,"Engranajes abiertos, reductores, minería, siderurgia, alimentaria"
+COGELSA ULTRAPLEX MCS 2,COGELSA,Sulfonato de calcio reforzada,2,Aceite base de alta viscosidad,-20,180,,300.0,460,620,11.0,,Opcional,"Engranajes abiertos, reductores, minería, siderurgia, alimentaria"
+CHEVRON Starplex EP 00,CHEVRON,Complejo de litio,0,Aceite mineral refinado,-40,132,,,220,315,,,No,Chasis y rodamientos de vehículos de carga y maquinaria ligera
+CHEVRON Starplex EP 0,CHEVRON,Complejo de litio,0,Aceite mineral refinado,-40,132,,235.0,220,315,,,No,Sistemas de engrase centralizado y rodamientos automotrices
+CHEVRON Starplex EP 1,CHEVRON,Complejo de litio,1,Aceite mineral refinado,-40,177,,245.0,220,315,30.0,,No,"Camiones, buses, maquinaria ligera, rodamientos de alta temperatura"
+CHEVRON Starplex EP 2,CHEVRON,Complejo de litio,2,Aceite mineral refinado,-40,177,,255.0,220,315,20.0,,No,"Vehículos pesados, construcción, rodamientos de rueda y chasis"
+CHEVRON Delo Grease EP 00,CHEVRON,Complejo de litio,0,Aceite mineral refinado,-40,132,,,226,315,,,No,Lubricación centralizada y cojinetes a baja temperatura
+CHEVRON Delo Grease EP 0,CHEVRON,Complejo de litio,0,Aceite mineral refinado,-40,132,,235.0,226,315,15.0,,No,"Tractores, buses, camiones, aplicaciones de engrase centralizado"
+CHEVRON Delo Grease EP 1,CHEVRON,Complejo de litio,1,Aceite mineral refinado,-40,177,,245.0,226,315,10.0,,No,"Camiones pesados, buses, maquinaria de carretera y chasis automotriz"
+CHEVRON Delo Grease EP 2,CHEVRON,Complejo de litio,2,Aceite mineral refinado,-40,177,,255.0,226,315,5.0,,No,"Camiones, autos, maquinaria agrícola y de construcción"
